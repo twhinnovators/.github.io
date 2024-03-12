@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The White Hole</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+            <header>
+            <div class="navbar">
+                <img src="logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Join Us</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+        </header>
+        <!--News -->
+        <section class="home" id="home">
+            <div class="home-text container">
+                <h2 class="home-title">Recent Posts</h2>
+                <p class="home-subtitle">Breaking Grounds: Explore the Latest Chronicles from The White Hole's Innovation Odyssey! 🚀</p>
+            </div>
+        </section>
+        <!-- Post Filter -->
+        <div class="post-filter container">
+            <p class="filter-item active-filter" data-filter='all'>All</p>
+            <p class="filter-item" data-filter='news'>News</p>
+            <p class="filter-item" data-filter='tech'>Tech</p>
+            <p class="filter-item" data-filter='electronics'>Electronics</p>
+            <p class="filter-item" data-filter='software'>Software</p>
+        </div>
+        <!-- Posts -->
+        <section class="post container">
+            <!--Post Box-1-->
+            <div class="post-box news">
+                <img src="posts/post-1.png" alt="" class="post-img">
+                <h2 class="category">News</h2>
+                <a href="post-page.html" class="post-title">Unveiling a New Era of Innovation: "The White Hole" Robotics Club's Grand Opening</a>
+                <p class="post-date">16 February, 2024</p>
+                <p class="post-description">In a momentous event that resonates with the spirit of innovation and collaboration, "The White Hole" Robotics Club officially marked its beginning with a grand opening ceremony on February 13, 2024. The ceremony, held at CDA Avenue, East Nasirabad, Chattogram, brought together an assembly of passionate individuals dedicated to the field of robotics.....</p>
+            <div class="profile">
+                <img src="posts/profile-1.jpg" alt="" class="profile-img">
+                <em class="profile-name">Tanvir Rahman</em>
+            </div>
+            </div>
+            <!--Post Box-2-->
+            <div class="post-box others">
+                <img src="posts/post-1.png" alt="" class="post-img">
+                <h2 class="category">Others</h2>
+                <a href="post-page.html" class="post-title">Welcome to The White Hole Robotics Club!</a>
+                <p class="post-date">16 February, 2024</p>
+                <p class="post-description">At The White Hole Robotics Club, we are more than just a community of technology enthusiasts; we are a dynamic collective driven by a passion for innovation and creativity. Our journey began with a simple yet powerful vision – to create a space where individuals, regardless of their experience level, could delve into the captivating world of robotics......</p>           
+            <div class="profile">
+                <img src="posts/profile-1.jpg" alt="" class="profile-img">
+                <em class="profile-name">Tanvir Rahman</em>
+            </div>
+            </div>
+            <!--Post Box-3-->
+            <div class="post-box tech">
+                <img src="posts/post-3.jpg" alt="" class="post-img">
+                <h2 class="category">Tech</h2>
+                <a href="post-page.html" class="post-title">Unleashing Creativity: Introducing Sora - OpenAI's Text-to-Video Marvel</a>
+                <p class="post-date">18 February, 2024</p>
+                <p class="post-description">In a groundbreaking leap forward, OpenAI introduces Sora, an AI model that transcends traditional boundaries by bringing text to life in the form of captivating and realistic videos. Sora, a diffusion model, represents a monumental advancement in the realm of artificial intelligence, combining the power of language understanding with visual synthesis.......</p>
+            <div class="profile">
+                <img src="posts/profile-1.jpg" alt="" class="profile-img">
+                <em class="profile-name">Tanvir Rahman</em>
+            </div>
+            </div>
+        </section>
+        <script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
